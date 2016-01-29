@@ -1,0 +1,14 @@
+{
+  "name": "apache-2.0",
+  "description": "The Apache License, Version 2.0",
+  "version": "0.0.0",
+  "files": [
+    "README.md",
+    "index.js",
+    "package.json"
+  ],
+  "repository": "jslicense/apache-2.0",
+  "scripts": {
+    "prepublish": "node prepublish.js < Apache-2.0 > index.js"
+  }
+}
