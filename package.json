@@ -2,16 +2,13 @@
   "name": "apache-2.0",
   "description": "Plaintext of The Apache License, Version 2.0 from www.apache.org",
   "version": "1.0.1",
-  "devDependencies": {
-    "moduleify-string": "^1.0.0"
-  },
   "files": [
     "README.md",
-    "index.js",
+    "Apache-2.0.json",
     "package.json"
   ],
   "repository": "jslicense/apache-2.0",
   "scripts": {
-    "prepublish": "moduleify-string Apache-2.0 > index.js"
+    "prepublish": "node -e \"process.stdout.write(JSON.stringify(require('fs').readFileSync('Apache-2.0').toString()))\" > Apache-2.0.json"
   }
 }
