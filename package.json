@@ -1,7 +1,7 @@
 {
   "name": "apache-2.0",
   "description": "Plaintext of The Apache License, Version 2.0 from www.apache.org",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "files": [
     "README.md",
     "Apache-2.0.json",
