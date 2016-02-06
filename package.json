@@ -14,6 +14,6 @@
   "main": "Apache-2.0.json",
   "repository": "jslicense/Apache-2.0",
   "scripts": {
-    "prepublsh": "node -e \"process.stdout.write(JSON.stringify(require('fs').readFileSync('Apache-2.0').toString()))\" > Apache-2.0.json"
+    "prepublish": "node -e \"process.stdout.write(JSON.stringify(require('fs').readFileSync('Apache-2.0').toString()))\" > Apache-2.0.json"
   }
 }
