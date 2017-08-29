@@ -1,19 +1,19 @@
 {
-  "name": "apache-2.0",
-  "description": "Plaintext of The Apache License, Version 2.0 from www.apache.org",
-  "version": "1.0.7",
+  "name": "apache-2.0-header",
+  "description": "Plaintext of The Apache License, Version 2.0 license header from www.apache.org",
+  "version": "0.0.0",
   "files": [
     "README.md",
-    "Apache-2.0.json",
+    "Apache-2.0-header.json",
     "package.json"
   ],
   "keywords": [
     "jslicense",
     "license"
   ],
-  "main": "Apache-2.0.json",
-  "repository": "jslicense/Apache-2.0",
+  "main": "Apache-2.0-header.json",
+  "repository": "jslicense/Apache-2.-header0",
   "scripts": {
-    "prepublish": "node -e \"process.stdout.write(JSON.stringify(require('fs').readFileSync('Apache-2.0').toString()))\" > Apache-2.0.json"
+    "prepublish": "node -e \"process.stdout.write(JSON.stringify(require('fs').readFileSync('Apache-2.0-header').toString()))\" > Apache-2.0-header.json"
   }
 }
