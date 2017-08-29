@@ -1,7 +1,7 @@
 {
   "name": "apache-2.0-header",
   "description": "Plaintext of The Apache License, Version 2.0 license header from www.apache.org",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "files": [
     "README.md",
     "Apache-2.0-header.json",
